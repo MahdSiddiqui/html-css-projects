@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+#logo{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#box1{
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    border-radius: 8px;
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+#innerbox{
+    margin-left: 20px;
+}
+#box1 form{
+    width: 100%; height: auto;
+}
+input[type="text"]{
+    width: 300px;
+    height: 30px;
+}
+#cont{
+    background-color: hsla(54, 100%, 50%, 0.904);
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+}
+#innerbox p a{
+    color: rgb(0, 110, 255);
+}
+#innerbox p a:hover{
+    color:orange
+}
+#help{
+    text-decoration: none;
+}
+#help:hover{
+    text-decoration: underline;
+}
+#rule{
+    width: 350px;
+    margin-right: 40px;
+    display: block;
+    color: rgba(0, 0, 0, 0.295);
+}
+#stonks{
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+}
+#stonks:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.line-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    border-top: 1px solid #0000003b;
+    margin: 0 10px;
+    width: 125px;
+}
+
+.text {
+    white-space: nowrap;
+}
+#new{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: white;
+    border-color: #0000003b;
+    border-radius: 8px;
+    width: 410px;
+    height: 37px;
+}
+#feet{
+    background-color: whitesmoke;
+    margin-bottom: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#after a{
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+}
+#after{
+    text-align: center;
+}
+#after a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+#extra{
+    text-align: center;
+}
